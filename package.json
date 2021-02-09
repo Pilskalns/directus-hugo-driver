@@ -1,0 +1,41 @@
+{
+  "name": "directus-hugo-driver",
+  "version": "0.0.0",
+  "description": "Translates content from Directus.io to gohugo.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilskalns/directus-hugo-driver.git"
+  },
+  "keywords": [
+    "directus",
+    "hugo",
+    "npm",
+    "cms",
+    "headless",
+    "headless-cms",
+    "automation"
+  ],
+  "author": "Andžs Pilskalns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilskalns/directus-hugo-driver/issues"
+  },
+  "homepage": "https://github.com/pilskalns/directus-hugo-driver#readme",
+  "dependencies": {
+    "@directus/sdk-js": "^9.0.0-rc.32",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "js-yaml": "^3.14.1",
+    "mime-types": "^2.1.28",
+    "url-slug": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "env": {
+        "es6": true,
+        "es2017": true,
+        "es2020": true,
+        "node":true
+    },
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": "off",
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "no-multiple-empty-lines": ["warn", {"max": 2}],
+        "max-len":["warn",{"code": 200}],
+        "semi":"off",
+        "space-before-blocks": "off",
+        "no-empty-function":"warn",
+        "no-trailing-spaces":"off",
+        "arrow-parens": ["error", "as-needed"],
+        "implicit-arrow-linebreak":"off",
+        "arrow-body-style": "warn",
+        "prefer-template": "warn",
+        "max-classes-per-file": "off",
+        "no-restricted-syntax": "off",
+        "no-underscore-dangle": "off"
+    }
+}
